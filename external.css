@@ -1,0 +1,166 @@
+@media(max-width: 320px) {
+    .mobile-class {
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .ipad-class {
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+
+@media(max-width: 1050px) {
+    .desktop-class {
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+
+* {
+    margin 0 auto;
+    padding: 0;
+}
+
+html {
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.invite {
+    text-align: center;
+}
+
+.first:hover {
+    color: red;
+}
+
+.first {
+    text-align: center;
+}
+
+.form {
+text-align: center;
+}
+.flex-parent {
+    display: flex;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .flex-item {
+    padding: .5em;
+    background: purple;
+    height: 10em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .box-item1 {
+    padding: .5em;
+    background: purple;
+    height: 21em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .box-item2 {
+    padding: .5em;
+    background: green;
+    height: 5m;
+    margin-left: 10px;
+  }
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #c42b2b;
+    border-radius: 50%;
+    position: fixed;
+    left: 200;
+    bottom: 750;
+}
+
+.dot2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: fixed;
+    left: 475;
+    bottom: 670;
+}
+
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #c42b2b;
+    border-radius: 50%;
+    position: fixed;
+    left: 780;
+    bottom: 710;
+
+}
+
+.dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #c42b2b;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 635;
+    left: 100;
+}
+
+.dot5 {
+    height: 100px;
+    width: 100px;
+    background-color: #c42b2b;
+    border-radius: 50%;
+    position: fixed;
+    left: 600;
+    bottom: 580;
+}
+
+.dot6 {
+    height: 25px;
+    width: 25px;
+    background-color: #fbff00;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 550;
+    left: 400;
+}
+
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    z-index: 20;
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 400px solid black;
+    position: fixed;
+    top: 385;
+    left: 1500;
+
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    z-index: 10;
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 600px solid rgb(179, 219, 0);
+    position: fixed;
+    top: 185;
+    left: 1350;
+
+  }
+
